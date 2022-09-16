@@ -10,28 +10,14 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/custom.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet"/>
     </head>
     <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Header - set the background image for the header in the line below-->
+
+
         <header class="py-5 bg-image-full" style="background-image: url('assets/projects.png')">
             <div class="text-center my-5">
-                <h1 class="header-projects fs-3 fw-bolder">My Projects</h1>
+                <h1 class="header-projects fs-3 fw-bolder">Project Photos</h1>
                 <br>
             </div>
         </header>
@@ -39,8 +25,23 @@
         <section class="py-5">
             <div class="container my-5">
                 <div class="row justify-content-center">
+                    <h1 id="pictureHeader" >Scroll Down to take a look at all the Photos</h1>
+                    <a class="nav-link" id="backButton" href="portfolio.html">Back to Projects Page</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" style="background-image: url('assets/top-banner.png')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
                     <div class="col-lg-10">
-                        <h2>Centriq Projects</h2>
+                        <h2>Dungeon Application</h2>
                         <div class="container-lg my-4">
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
@@ -51,8 +52,16 @@
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>Language: C#</strong> 
-                                            <br>This project was my first completed project in the class. It's styled after text-based dungeon crawler games. To make mine more personalized, I styled it after a famous internet group called the <a href="https://scp-wiki.wikidot.com/" target="_blank">SCP Foundation</a>. I've been apart of the fanbase for years now and when I was told I got to personalize the dungeon app to my hearts content, I instantly decided to base it on the SCP world. To play the game yourself, it can be found at <a href="https://github.com/Juno0311/Dungeon-App" target="_blank">my github.</a>
+                                            <img src="assets/DungeonAppPics/WelcomeScreen.png">
+                                            <img id="endScreen" src="assets/DungeonAppPics/endscreen.png">
+                                            <br>
+                                            <img src="assets/DungeonAppPics/playerinfo.png">
+                                            <br>
+                                            <img src="assets/DungeonAppPics/monsterinfo.png">
+                                            <br>
+                                            <img src="assets/DungeonAppPics/mainpage.png">
+                                            <br>
+                                            <img src="assets/DungeonAppPics/attack.png">
                                         </div>
                                     </div>
                                 </div>
@@ -64,8 +73,6 @@
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>Language: ???</strong>
-                                            <br>
                                             WIP: COME BACK SOON
                                         </div>
                                     </div>
@@ -78,8 +85,6 @@
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                       <div class="accordion-body">
-                                        <strong>Language: ???</strong>
-                                        <br>
                                         WIP: COME BACK SOON
                                       </div>
                                     </div>
@@ -94,7 +99,6 @@
                                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                       <div class="accordion-body">
                                         <strong>Language: ???</strong>
-                                        <br>
                                         WIP: COME BACK SOON
                                       </div>
                                     </div>
@@ -108,35 +112,14 @@
                                     </h2>
                                     <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                       <div class="accordion-body">
-                                        <strong>Language: ???</strong>
-                                        <br>
                                         WIP: COME BACK SOON
                                       </div>
                                     </div>
                                   </div>
                             </div>
-                            <p id="photoAlbumDescription">Click below to look at the final products of my projects.</p>
-                            <a class="nav-link" id="photoAlbum" href="pictures.html">Photo Album</a>
                         </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-5 bg-image-full" style="background-image: url('assets/test.jpg')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 20rem"></div>
-        </div>
-        <!-- Content section-->
-        <section class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Eagle Project</h2>
-                        <p class="lead">Although not technically apart of coding, this project was such a large part of my life and helped with my greatest achievement. I've included pictures of the project and my ceremony.</p>
-                        <p class="mb-0">replace with pics when i get them back</p>
-                    </div>
+                        </div>
+
                 </div>
             </div>
         </section>

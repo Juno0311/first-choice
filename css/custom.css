@@ -13,3 +13,37 @@
     color: rgb(17, 90, 193);
     font-weight: bold;
 }
+
+/* #photoAlbum, #photoAlbumDescription */
+
+#photoAlbum {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: rgb(17, 90, 193);
+    font-weight: bold;
+    text-align: center;
+}
+
+#photoAlbumDescription {
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#endScreen {
+    height: 8em;
+}
+
+/* <h1 id="pictureHeader" >Scroll Down to take a look at all the Photos</h1>
+                    <a class="nav-link" id="backButton" href="portfolio.html">Back to Projects Page</a> */
+#pictureHeader{
+    text-align: center;
+}
+
+#backButton {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(17, 90, 193);
+    font-weight: bold;
+    text-align: center;
+}
